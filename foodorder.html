@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Order</title>
+<style>
+body {
+background-image: url("wallpaper.wiki-Download-Images-Food-HD-PIC-WPD006571.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>Food Order</h1>
+    </header>
+
+    <section id="order-form">
+        <h2>Order Food</h2>
+        <form action="orders.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+	    <label for="mob">Mobile Number:</label>
+            <input type="text" id="mob" name="Mobile" required><br><br>
+	    <label for="item">Item:</label>
+            <input type="text" id="item" name="item" required><br><br>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+	    <label for="price">Price:</label>
+            <input type="text" id="price" name="price" required><br><br>
+            <input type="submit" value="Order">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Restaurant Name</p>
+    </footer>
+</body>
+</html>

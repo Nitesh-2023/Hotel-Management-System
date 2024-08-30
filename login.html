@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Login</title>
+</head>
+<body>
+<b><marquee direction="right" style="font-family:Black And White Picture; font-size:25pt ;color: #FFFFFF" scrollamount="15"> WELCOME TO MY RESTAURANT </marquee></b>
+<h1>
+		<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+        <center> 
+    <h1 style="font-size: 42" ><font style="border: 12px groove powderblue;" color=floralwhite face="Allerta Stencil" >HOTEL DIAMOND</font></h1>     
+</center>
+<br>
+<style> 
+    
+body 
+{ 
+   background: url("hochunk-entrance-1800x1200.jpg") no-repeat;
+   background-size:cover;
+}
+    
+ul
+    {
+	margin:3pc;
+	padding:0.1px;
+	list-style:none;
+}
+    
+    ul li a
+    {
+    background-color:white;
+	opacity:.8;
+    line-height:40px;
+	text-align:center;
+	font-size:25px;
+	margin-right:7px;
+	margin-left: 5px;
+	text-decoration:underline;
+	text-align: center;
+	color:indigo;
+	display:block;
+}
+
+    ul li a:hover
+    {
+	background-color:mediumvioletred;
+	color:gold;
+	background-size: contain;
+}
+
+    ul li ul li
+    {
+	display:none;
+}
+
+    ul li:hover ul li
+    {
+	display:block;
+}
+    </style><br>
+
+
+    <div class="login-box">
+        <h2>Login</h2>
+        <form action="login.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required><br><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+<style>
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Center the login box vertically and horizontally */
+.login-box {
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+</style>
+	
+</body>
+</html>
